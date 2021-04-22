@@ -8,3 +8,5 @@ controls:
 Up, down - zoom
 w, a, s, d - move
 mouse left - push point to the center
+
+zoom work less then 8000000
