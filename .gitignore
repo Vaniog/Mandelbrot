@@ -3,3 +3,12 @@
 /Mandelbrot.layout
 /bin
 /obj
+/cmake-build-debug
+/.cmake
+/.idea
+/CMakeCache.txt
+/CMakeFiles/
+/CMakeLists.txt
+/Makefile
+/Testing/
+/cmake_install.cmake
