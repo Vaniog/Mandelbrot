@@ -87,7 +87,7 @@ int main()
 {
 
     sf::RenderWindow window(sf::VideoMode(1920, 1080), " ", sf::Style::Fullscreen);
-    MandelbrotFractal mand(540, 540, 1080, 1080, "resources//MandelbrotGradient5.png");
+    MandelbrotFractal mand(540, 540, 1080, 1080, "./resources/MandelbrotGradient5.png");
     mand.fillMandImage(-2, -2, 2, 2);
 
     int startWidth = 1080, startHeight = 1080;
@@ -97,9 +97,9 @@ int main()
 
     sf::Text zoomValue;
     zoomValue.setPosition(20, 20);
-    zoomValue.setColor(sf::Color::White);
+    //zoomValue.setColor(sf::Color::White);
     sf::Font font;
-    font.loadFromFile("resources//mainFont1.ttf");
+    font.loadFromFile("./resources/mainFont1.ttf");
     zoomValue.setFont(font);
     while(window.isOpen())
     {
