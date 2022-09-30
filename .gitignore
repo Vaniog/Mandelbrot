@@ -8,7 +8,6 @@
 /.idea
 /CMakeCache.txt
 /CMakeFiles/
-/CMakeLists.txt
 /Makefile
 /Testing/
 /cmake_install.cmake
